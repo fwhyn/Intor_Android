@@ -1,13 +1,13 @@
-package com.fwhyn.intor.ui.settings
+package com.fwhyn.intor.ui.feature.slideshow
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SettingsViewModel : ViewModel() {
+class SlideshowViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is settings Fragment"
+        value = "This is slideshow Fragment"
     }
     val text: LiveData<String> = _text
 }

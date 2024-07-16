@@ -1,4 +1,4 @@
-package com.fwhyn.intor.ui.transform
+package com.fwhyn.intor.ui.feature.transform
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package com.fwhyn.intor.ui.transform
+package com.fwhyn.intor.ui.feature.transform
 
 import android.os.Bundle
 import android.view.LayoutInflater

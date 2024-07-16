@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/nav_transform"
-        android:name="com.fwhyn.intor.ui.transform.TransformFragment"
+        android:name="com.fwhyn.intor.ui.feature.transform.TransformFragment"
         android:label="@string/menu_transform"
         tools:layout="@layout/fragment_transform" />
 
     <fragment
         android:id="@+id/nav_reflow"
-        android:name="com.fwhyn.intor.ui.reflow.ReflowFragment"
+        android:name="com.fwhyn.intor.ui.feature.reflow.ReflowFragment"
         android:label="@string/menu_reflow"
         tools:layout="@layout/fragment_reflow" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.fwhyn.intor.ui.slideshow.SlideshowFragment"
+        android:name="com.fwhyn.intor.ui.feature.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.fwhyn.intor.ui.settings.SettingsFragment"
+        android:name="com.fwhyn.intor.ui.feature.settings.SettingsFragment"
         android:label="@string/menu_settings"
         tools:layout="@layout/fragment_settings" />
 </navigation>
